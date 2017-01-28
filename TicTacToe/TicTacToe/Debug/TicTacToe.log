@@ -1,0 +1,3 @@
+﻿  MainGame.cpp
+MainGame.obj : error LNK2019: unresolved external symbol "public: void __thiscall TicTacToe::PrintGame(void)" (?PrintGame@TicTacToe@@QAEXXZ) referenced in function _main
+E:\Projects\GitHub\TicTacToe\TicTacToe\Debug\TicTacToe.exe : fatal error LNK1120: 1 unresolved externals
