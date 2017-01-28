@@ -7,6 +7,7 @@ class TicTacToe
 {
 public:
 	void PrintGameScreen();
+	void WelcomeScreen();
 
 };
 
