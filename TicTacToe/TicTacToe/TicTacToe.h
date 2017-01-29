@@ -7,7 +7,7 @@ using namespace std;
 class TicTacToe
 {
 public:
-	int grid[3]	;
+	int grid[3][3];
 	void PrintGameScreen();
 	void WelcomeScreen();
 	int GameLogic();
