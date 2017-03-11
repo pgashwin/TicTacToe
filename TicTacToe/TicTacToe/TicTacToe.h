@@ -15,6 +15,11 @@ public:
 	bool IsPlayer1 = true; //to check if it's player 1 or not
 	int InputCounter=0;
 	bool GameOver = false;
+	bool isAION = false;
+	int playerInput;
+	int aiInput=0;
+	int lastAIInput;
+	string decision;
 
 	void WelcomeScreen();
 	int PrintGameScreen();
@@ -22,6 +27,10 @@ public:
 	int AssignValues(int grid_number);
 	int GameLogic();
 	void PrintWinner(); //Print the winner
+	void ImpossibleAI();
+
 };
 	
+
+
 
