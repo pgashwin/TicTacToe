@@ -1,3 +1,6 @@
 ﻿  MainGame.cpp
+  AILogic.cpp
+e:\projects\github\tictactoe\tictactoe\tictactoe\ailogic.cpp(580): warning C4553: '==': operator has no effect; did you intend '='?
+  Generating Code...
   TicTacToe.vcxproj -> E:\Projects\GitHub\TicTacToe\TicTacToe\x64\Debug\TicTacToe.exe
   TicTacToe.vcxproj -> E:\Projects\GitHub\TicTacToe\TicTacToe\x64\Debug\TicTacToe.pdb (Partial PDB)

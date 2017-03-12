@@ -185,6 +185,9 @@ int TicTacToe::GameLogic() //checking the grid values
 			{
 				PrintWinner();
 			}
+			else if (grid[1][0] == grid[1][1] && grid[1][1] == grid[1][2]) {
+				PrintWinner();
+			}
 			else
 			{
 				PrintGameScreen();
